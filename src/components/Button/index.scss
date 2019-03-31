@@ -1,0 +1,32 @@
+.rounded-button {
+  min-height: 33px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 70px;
+  background: #ef5350;
+  border-radius: 23px;
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #fff;
+
+  &.small {
+    min-height: 15px;
+    line-height: 15px;
+    font-size: 0.8em;
+    padding: 10px 15px;
+  }
+
+  &.inverse {
+    background: #fff;
+    color: #ef5350;
+  }
+
+  &.hidden {
+    display: none;
+
+    @media (max-width: 768px) {
+      display: inline-block;
+    }
+  }
+}

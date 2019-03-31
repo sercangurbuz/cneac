@@ -1,0 +1,54 @@
+.secteurs {
+  text-align: center;
+
+  h1 {
+    color: #424242;
+    font-size: 1.8em;
+  }
+
+  span.button {
+    border: 2px solid #ef5350;
+    padding: 9px 32px;
+    border-radius: 33px;
+    width: 188px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ef5350;
+  }
+
+  .images {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    overflow-x: hidden;
+
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+      overflow-x: scroll;
+    }
+
+    .image {
+      position: relative;
+      img {
+        -webkit-user-drag: none;
+        -khtml-user-drag: none;
+        -moz-user-drag: none;
+        -o-user-drag: none;
+        border-radius: 5px;
+        min-width: 350px;
+        height: 237px;
+        margin-left: 25px;
+        filter: brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(551%) contrast(0.8);
+      }
+      span {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        font-weight: 600;
+        color: #fff;
+        font-size: 1.3em;
+        display: inline-block;
+      }
+    }
+  }
+}

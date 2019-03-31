@@ -1,0 +1,27 @@
+.trouver {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  justify-content: space-around;
+  align-items: center;
+
+  span.title {
+    font-size: 1.3em;
+    font-weight: 800;
+    color: #ef5350;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    margin-top: 9px;
+
+    .dropdown {
+      margin-top: 6px;
+    }
+
+    span.title {
+      font-size: 1.8em;
+    }
+  }
+}
