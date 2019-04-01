@@ -17,7 +17,14 @@ const Trouver = () => {
         <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
         <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
       </Dropdown>
-      <Dropdown text="Choix multiples" />
+      <Dropdown text="Choix multiples" >
+        <Dropdown.Item>Choix multiples</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item>
+        <Dropdown.Item>Lorem ipsum dolor sit amet</Dropdown.Item></Dropdown>
     </div>
   );
 };

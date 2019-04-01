@@ -43,7 +43,8 @@
       span {
         position: absolute;
         top: 50%;
-        left: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         font-weight: 600;
         color: #fff;
         font-size: 1.3em;
